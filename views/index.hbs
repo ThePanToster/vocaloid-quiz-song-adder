@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song Adder</title>
+    <style>
+        html, body{
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(147, 208, 211);
+            display: flex;
+            justify-content: center;
+            font-size: 1.3rem;
+            gap:5em;
+        }
+        #number{
+            width:5ch;
+        }
+        #name, #producer, #link{
+            width:60ch;
+        }
+        section{
+            display: flex;
+        }
+        #labels label{
+            display: block;
+        }
+
+        .song{
+            background-color: rgb(97, 170, 173);
+            padding: 2em;
+            margin: 1.5em 0em;
+            box-shadow: 10px 10px;
+        }
+        .title{
+            font-size: 1.6rem;
+        }
+        .dif{
+            text-align: right;
+        }
+        .date{
+            text-align: center;
+            color: rgb(82, 82, 82);
+            font-size: 1rem;
+        }
+        #alert{
+            color: crimson;
+            font-size: larger;
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="adder">
+        <h2>Add a new song</h2>
+        <form action="/addsong" method="post" name="adding" id="adding">
+            <section>
+                <div id="labels">
+                    <label for="number">Number: </label>
+                    <label for="difficulty">Difficulty: </label>
+                    <label for="published">Published: </label>
+                    <label for="name">Name: </label>
+                    <label for="producer">Producer: </label>
+                    <label for="link">Link: </label>
+                    <p>Vocaloids: </p>
+                </div>
+                <div style="width:100%">
+                    <input type="number" pattern="[0-9][0-9][0-9]" name="number" id="number" min="1" max="999" value="{{{nextSongNo}}}" required><br>
+                    <select name="difficulty" id="difficulty">
+                        <option value="Easy">Easy</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Hard">Hard</option>
+                    </select><br>
+                    <input type="date" name="published" id="published" required><br>
+                    <input type="text" name="name" id="name" required><br>
+                    <input type="text" name="producer" id="producer" required><br>
+                    <input type="url" id="link" name="link"><br>
+                    <p>
+                        <input type="checkbox" id="miku" name="voices" value="Hatsune Miku"><label for="miku"> Hatsune Miku</label><br>
+                        <input type="checkbox" id="rin" name="voices" value="Kagamine Rin"><label for="rin"> Kagamine Rin</label><br>
+                        <input type="checkbox" id="len" name="voices" value="Kagamine Len"><label for="len"> Kagamine Len</label><br>
+                        <input type="checkbox" id="gumi" name="voices" value="GUMI"><label for="gumi"> GUMI</label><br>
+                        <input type="checkbox" id="kaito" name="voices" value="KAITO"><label for="kaito"> KAITO</label><br>
+                        <input type="checkbox" id="flower" name="voices" value="Flower"><label for="flower"> Flower</label><br>
+                    </p>
+                </div>
+            </section>
+            <input type="submit" value="Add a song!" id="submitbtn"><br>
+            {{{alert}}}
+        </form>
+    </div>
+    <div id="songlist">
+        {{{songDB}}}
+    </div>
+</body>
+<script>
+    function leadingZeros(){
+        while (document.querySelector('#number').value.length < 3){
+            document.querySelector('#number').value = "0" + document.querySelector('#number').value
+        }
+    }
+    document.querySelector('#number').addEventListener('change', leadingZeros)
+    leadingZeros()
+</script>
+</html>
