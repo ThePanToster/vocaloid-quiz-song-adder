@@ -25,5 +25,149 @@
         "producer": "iroha(sasaki)",
         "published": "2008-12-19",
         "link": "https://www.youtube.com/watch?v=dSw8CucthGc"
+    },
+    {
+        "number": "004",
+        "difficulty": "Easy",
+        "published": "2010-05-18",
+        "name": "World's End Dancehall",
+        "producer": "wowaka",
+        "link": "https://www.youtube.com/watch?v=ZB75e7vzX0I",
+        "voices": [
+            "Hatsune Miku",
+            "Megurine Luka"
+        ]
+    },
+    {
+        "number": "005",
+        "difficulty": "Medium",
+        "published": "2008-02-22",
+        "name": "Love is War",
+        "producer": "ryo",
+        "link": "https://www.nicovideo.jp/watch/sm2397344",
+        "voices": "Hatsune Miku"
+    },
+    {
+        "number": "006",
+        "difficulty": "Easy",
+        "published": "2007-12-07",
+        "name": "Melt",
+        "producer": "ryo",
+        "link": "https://www.nicovideo.jp/watch/sm1715919",
+        "voices": "Hatsune Miku"
+    },
+    {
+        "number": "007",
+        "difficulty": "Easy",
+        "published": "2008-06-13",
+        "name": "Black Rock Shooter",
+        "producer": "ryo",
+        "link": "https://www.nicovideo.jp/watch/sm3645817",
+        "voices": "Hatsune Miku"
+    },
+    {
+        "number": "008",
+        "difficulty": "Easy",
+        "published": "2016-01-08",
+        "name": "Ghost Rule",
+        "producer": "DECO*27",
+        "link": "https://www.youtube.com/watch?v=KushW6zvazM",
+        "voices": "Hatsune Miku"
+    },
+    {
+        "number": "009",
+        "difficulty": "Easy",
+        "published": "2010-02-14",
+        "name": "Rolling Girl",
+        "producer": "wowaka",
+        "link": "https://www.youtube.com/watch?v=vnw8zURAxkU",
+        "voices": "Hatsune Miku"
+    },
+    {
+        "number": "010",
+        "difficulty": "Easy",
+        "published": "2011-02-16",
+        "name": "Remote Control",
+        "producer": "Jesus-P",
+        "link": "https://www.youtube.com/watch?v=1st0XSY0VKQ",
+        "voices": [
+            "Kagamine Rin",
+            "Kagamine Len"
+        ]
+    },
+    {
+        "number": "011",
+        "difficulty": "Easy",
+        "published": "2010-08-19",
+        "name": "Matryoshka",
+        "producer": "Hachi",
+        "link": "https://www.youtube.com/watch?v=HOz-9FzIDf0",
+        "voices": [
+            "Hatsune Miku",
+            "GUMI"
+        ]
+    },
+    {
+        "number": "012",
+        "difficulty": "Easy",
+        "published": "2016-06-19",
+        "name": "Law-evading Rock",
+        "producer": "Neru",
+        "link": "https://www.youtube.com/watch?v=u5mHVUwDf_0",
+        "voices": "Kagamine Len"
+    },
+    {
+        "number": "013",
+        "difficulty": "Easy",
+        "published": "2014-10-08",
+        "name": "ECHO",
+        "producer": "Crusher-P",
+        "link": "https://www.youtube.com/watch?v=cQKGUgOfD8U",
+        "voices": "GUMI"
+    },
+    {
+        "number": "014",
+        "difficulty": "Easy",
+        "published": "2010-04-19",
+        "name": "Melancholic",
+        "producer": "Junky",
+        "link": "https://www.youtube.com/watch?v=86_kvUqhY-A",
+        "voices": "Kagamine Rin"
+    },
+    {
+        "number": "015",
+        "difficulty": "Easy",
+        "published": "2017-08-22",
+        "name": "Unknown Mother-Goose",
+        "producer": "wowaka",
+        "link": "https://www.youtube.com/watch?v=P_CSdxSGfaA",
+        "voices": "Hatsune Miku"
+    },
+    {
+        "number": "016",
+        "difficulty": "Easy",
+        "published": "2011-09-17",
+        "name": "Senbonzakura",
+        "producer": "Kurousa-P",
+        "link": "https://www.youtube.com/watch?v=shs0rAiwsGQ",
+        "voices": "Hatsune Miku"
+    },
+    {
+        "number": "017",
+        "difficulty": "Medium",
+        "published": "2012-04-11",
+        "name": "Six Trillion Years and One Night Story",
+        "producer": "kemu",
+        "link": "https://www.youtube.com/watch?v=Om3MTou2kPg",
+        "voices": "IA"
+    },
+    {
+        "number": "018",
+        "difficulty": "Easy",
+        "published": "2009-04-05",
+        "name": "Romeo and Cinderella",
+        "producer": "doriko",
+        "link": "https://www.youtube.com/watch?v=kp-plPYAPq8",
+        "voices": "Hatsune Miku"
     }
 ]
